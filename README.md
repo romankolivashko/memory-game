@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+#### _Brief desc of Project, 12.07.2021_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By _**Roman Kolivashko**_
 
-## Available Scripts
+<html>
+<!-- Project Shields -->
+    <p align="left">
+        <a href="https://github.com/romankolivashko/memory-game">
+            <img src="https://img.shields.io/github/repo-size/romankolivashko/memory-game?style=plastic">
+        </a>
+		  ¨
+        <a href="https://github.com/romankolivashko/memory-game/commits/main">
+            <img src="https://img.shields.io/github/last-commit/romankolivashko/memory-game?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://github.com/romankolivashko/memory-game/stargazers">
+            <img src="https://img.shields.io/github/stars/romankolivashko/memory-game?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://github.com/romankolivashko/memory-game/issues">
+           <img src="https://img.shields.io/github/issues/romankolivashko/memory-game?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://linkedin.com/in/rkolivashko">
+            <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2">
+        </a>
+    </p> 
+</html>
 
-In the project directory, you can run:
+---
+## Table of Contents
+* [Description](#description)
+* [React Components Diagram](#diagram)
+* [Screenshots](#screenshots)
+* [Setup/Installation Requirements](#installation-requirements)
+    - [Requirements to Run](#requirements-to-run)
+    - [Instructions](#instructions)
+    - [Other Technologies Used](#other-technologies-used)
+* [How to access the app from the web](#web-access)
+* [Known Bugs](#known-bugs)
+* [Support and Contact Details](#support-and-contact-details)
+* [License](#license)
+---
+## Description <a id="description"></a>
+This applications is a simple memory card game, built with React. Lets users select two cards at a time, in attempt to match the pair.
 
-### `yarn start`
+## Screenshots <a id="screenshots"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./public/img/memgame.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup/Installation Requirements <a id="installation-requirements"></a>
 
-### `yarn test`
+### Requirements to Run <a id="requirements-to-run"></a>
+* _Web Browser_
+* _Webpack_
+* _Node.js_
+* _NPM_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instructions <a id="instructions"></a>
 
-### `yarn build`
+1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
+2. Clone the repository: `$git clone https://github.com/romankolivashko/memory-game.git`
+3. Use command line/Bash to move to the project directory with `cd project-directory`
+4. Run `npm install` to get all dependencies. 
+5. Run `npm run start` to start up the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Other Technologies Used <a id="other-technologies-used"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* _HTML_
+* _CSS_
+* _Javascript_
+* _React_
+* _React Hooks_
+* _ESLint_
+* _Babel_
+* _Markdown_
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How to access the app from the web <a id="web-access"></a>
+* _Follow the link [here](https://amazing-yalow-31fb26.netlify.app/)_ 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Known Bugs <a id="known-bugs"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+There are currently no known bugs in this program.
+If found, please report it here - [Issues](https://github.com/romankolivashko/memory-game/issues)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Support and contact details <a id="support-and-contact-details"></a>
 
-## Learn More
+_If there are any question or concerns please contact me at my [email](mailto:rkolivashko@gmail.com). Thank you._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### License <a id="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*This software is licensed under the MIT license*
